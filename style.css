@@ -12,6 +12,25 @@ h1 {
   font-size: bold;
   font-size: 100px;
   height: 150px;
+  position: relative;
+  display: inline-block;
+}
+.efeito-titulo {
+  position: relative;
+  display: inline-block;
+}
+.efeito-titulo::after {
+  content: " ";
+  width: 0%;
+  height: 4px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+}
+.efeito-titulo:hover::after {
+  width: 100%;
 }
 .container {
   height: 100vh;
