@@ -57,6 +57,23 @@ main {
   border-radius: 35px;
   height: 300px;
 }
+/* Efeito de Pulsação início */
+@keyframes lampadaR {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+#lamp:hover {
+  animation-name: lampadaR;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* fim do efeito de pulsação */
 .container_btn {
   height: 80px;
 }
