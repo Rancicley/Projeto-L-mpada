@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: yellow;
+  font-size: bold;
+  font-size: 100px;
+  height: 150px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+}
+main {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+}
+.title_lampada {
+  text-align: center;
+}
+.lampada_img {
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+}
+#lamp {
+  border-radius: 35px;
+  height: 300px;
+}
+.container_btn {
+  height: 80px;
+}
+.btns {
+  text-align: center;
+  height: 5rem;
+  margin: auto;
+  width: 250px;
+  margin-top: 30px;
+}
+#turnOn {
+  margin-right: 10px;
+  height: 1.9rem;
+  border-radius: 10px;
+  width: 80px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#turnOff {
+  height: 1.9rem;
+  border-radius: 10px;
+  width: 90px;
+  font-weight: 800;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+#turnOn:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+  font-size: 20px;
+  border: none;
+}
+#turnOff:hover {
+  color: white;
+  background-color: black;
+  transition: 1s;
+  font-size: 20px;
+  border: none;
+}
